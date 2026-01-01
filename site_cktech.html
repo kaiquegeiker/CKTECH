@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CKTECH | Segurança Eletrônica e Telecom</title>
+  <meta name="description" content="CKTECH - Segurança Eletrônica e Telecom. Manutenção de fibra óptica, redes de internet, rádios comunicadores e sistemas de segurança." />
+  <style>
+    :root {
+      --primary: #4fc3f7;
+      --dark: #0b0f14;
+      --dark2: #121a26;
+      --text: #cfd8e3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: var(--dark);
+      color: #fff;
+    }
+    header {
+      background: radial-gradient(circle at top, #0e2f4f, #06090d);
+      padding: 60px 20px 80px;
+      text-align: center;
+    }
+    header img {
+      max-width: 160px;
+      margin-bottom: 25px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: var(--text);
+      margin-top: 10px;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(14,22,33,0.95);
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 15px;
+      backdrop-filter: blur(6px);
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover { color: var(--primary); }
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 20px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      margin-bottom: 50px;
+      color: var(--primary);
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+    .service-box {
+      background: linear-gradient(180deg, #141e2d, #0f1722);
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .service-box:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 25px 50px rgba(79,195,247,0.25);
+    }
+    .service-box h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 1.3rem;
+    }
+    .service-box p {
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .contact {
+      text-align: center;
+      max-width: 600px;
+      margin: auto;
+    }
+    .contact p {
+      color: var(--text);
+      font-size: 1.1rem;
+    }
+    .whatsapp {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 18px 40px;
+      background: #25d366;
+      color: #fff;
+      border-radius: 40px;
+      font-size: 1.3rem;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 10px 25px rgba(37,211,102,0.35);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .whatsapp:hover {
+      transform: scale(1.05);
+      box-shadow: 0 15px 35px rgba(37,211,102,0.55);
+    }
+    footer {
+      background: #06090d;
+      text-align: center;
+      padding: 25px;
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="CKTECH Logo" />
+  <h1>CKTECH</h1>
+  <p>Segurança Eletrônica & Telecomunicações</p>
+</header>
+
+<nav>
+  <a href="#servicos">Serviços</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="servicos">
+  <h2>Nossos Serviços</h2>
+  <div class="services">
+    <div class="service-box">
+      <h3>Fibra Óptica</h3>
+      <p>Manutenção, fusão, testes e certificação de redes de fibra óptica, garantindo alto desempenho e confiabilidade.</p>
+    </div>
+    <div class="service-box">
+      <h3>Redes de Internet</h3>
+      <p>Implantação e manutenção de redes cabeadas e wireless, com foco em estabilidade e segurança.</p>
+    </div>
+    <div class="service-box">
+      <h3>Rádios Comunicadores</h3>
+      <p>Configuração, programação e manutenção de rádios comunicadores analógicos e digitais.</p>
+    </div>
+    <div class="service-box">
+      <h3>Sistemas de Segurança</h3>
+      <p>Instalação de CFTV, alarmes, controle de acesso e soluções completas em segurança eletrônica.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <div class="contact">
+    <p>Fale diretamente conosco pelo WhatsApp e solicite um orçamento.</p>
+    <a class="whatsapp" href="https://wa.me/5527996000248" target="_blank">
+      (27) 99600-0248
+    </a>
+  </div>
+</section>
+
+<footer>
+  © 2026 CKTECH • Segurança Eletrônica e Telecom
+</footer>
+
+</body>
+</html>
